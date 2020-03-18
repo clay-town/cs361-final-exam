@@ -1,10 +1,11 @@
-require_relative 'pannier'
-
 class RoadBike
 
+  attr_accessor :weekly_rate, :daily_rate, :hourly_rate
+
   def initialize
-    @panniers = [Pannier.new, Pannier.new]
     @daily_rate = 15
+    @weekly_rate = 105
+    @hourly_rate = 5
   end
 
   def clean
@@ -13,14 +14,6 @@ class RoadBike
 
   def lubricate_gears
     puts "Lubricating gears..."
-  end
-
-  def panniers
-    @panniers
-  end
-
-  def daily_rate
-    @daily_rate
   end
 
 end

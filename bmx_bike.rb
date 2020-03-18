@@ -1,9 +1,8 @@
-require_relative 'tail_pack'
-
 class BmxBike
 
+  attr_accessor :weekly_rate, :daily_rate, :hourly_rate
+
   def initialize
-    @tail_pack = TailPack.new
     @weekly_rate = 70
     @daily_rate = 20
     @hourly_rate = 5
@@ -15,22 +14,6 @@ class BmxBike
 
   def adjust_seat
     puts "Adjusting seat..."
-  end
-
-  def tail_pack
-    @tail_pack
-  end
-
-  def weekly_rate
-    @weekly_rate
-  end
-
-  def daily_rate
-    @daily_rate
-  end
-
-  def hourly_rate
-    @hourly_rate
   end
 
 end
