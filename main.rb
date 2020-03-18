@@ -17,7 +17,9 @@ bikes = [
 accessories = [
 	TailPack.new, 
 	Pannier.new,
-	Pannier.new
+	Pannier.new, 
+	RollPack.new,
+	RollPack.new
 
 ]
 
@@ -30,9 +32,9 @@ total_price += accessories[1].price
 total_price += accessories[2].price
 
 total_price += bikes[2].weekly_rate
-total_price += bikes[2].luggage.price
+total_price += accessories[3].price
 
 total_price += bikes[3].weekly_rate
-total_price += bikes[3].luggage.price
+total_price += accessories[4].price
 
 puts "Total price: #{total_price}"
