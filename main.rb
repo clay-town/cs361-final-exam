@@ -25,16 +25,14 @@ accessories = [
 
 total_price = 0
 total_price += bikes[0].weekly_rate
-total_price += accessories[0].cost
-
 total_price += bikes[1].daily_rate * 7
+total_price += bikes[2].weekly_rate
+total_price += bikes[3].weekly_rate
+
+total_price += accessories[0].cost
 total_price += accessories[1].price
 total_price += accessories[2].price
-
-total_price += bikes[2].weekly_rate
 total_price += accessories[3].price
-
-total_price += bikes[3].weekly_rate
 total_price += accessories[4].price
 
 puts "Total price: #{total_price}"
