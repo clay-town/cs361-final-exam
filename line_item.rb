@@ -16,5 +16,3 @@ class LineItem
   def cost
   	item.@rate * @length
   end
-
-end
