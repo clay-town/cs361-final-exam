@@ -20,7 +20,6 @@ accessories = [
 	Pannier.new, 
 	RollPack.new,
 	RollPack.new
-
 ]
 
 total_price = 0
