@@ -7,6 +7,7 @@ require_relative 'bmx_bike'
 require_relative 'road_bike'
 require_relative 'mountain_bike'
 require_relative 'pannier'
+require_relative 'roll_pack'
 
 bikes = [
   BmxBike.new,

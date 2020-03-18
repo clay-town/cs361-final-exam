@@ -1,5 +1,3 @@
-require_relative 'roll_pack'
-
 class MountainBike
 
   attr_accessor :weekly_rate, :daily_rate, :hourly_rate
