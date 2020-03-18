@@ -1,5 +1,3 @@
-require_relative 'tail_pack'
-
 class BmxBike
 
   attr_accessor :weekly_rate, :daily_rate, :hourly_rate
