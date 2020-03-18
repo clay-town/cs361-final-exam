@@ -1,5 +1,3 @@
-require_relative 'pannier'
-
 class RoadBike
 
   attr_accessor :weekly_rate, :daily_rate, :hourly_rate
