@@ -2,6 +2,8 @@ require_relative 'roll_pack'
 
 class MountainBike
 
+  attr_accessor :weekly_rate, :daily_rate, :hourly_rate
+
   def initialize
     @weekly_rate = 90
     @daily_rate = 25
@@ -14,18 +16,6 @@ class MountainBike
 
   def adjust_suspension
     puts "Adjusting suspension..."
-  end
-
-  def weekly_rate
-    @weekly_rate
-  end
-
-  def daily_rate
-    @daily_rate
-  end
-
-  def hourly_rate
-    @hourly_rate
   end
 
 end
